@@ -1,0 +1,5 @@
+FROM sixeyed/nginx:windowsservercore
+
+COPY index.html C:/nginx/html
+
+EXPOSE 80 443
